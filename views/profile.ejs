@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1> Welcome to <%= name %>'s Profile</h1>
+    <p>
+      My name is <%= name %> and I am a student in the summer camp of
+      Hack Adventure.I learning many topics among
+      web development.
+     </p>
+<ol>
+  <% hobbies.forEach( function(hobby){ %>
+    <li><%= hobby %></li>
+    <% }) %>
+</ol>
+<nav>
+<div class="nav-wrapper">
+  <a href="#!" class="brand-logo"><i class="material-icons">cloud</i></a>
+  <ul class="right hide-on-med-and-down">
+    <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+    <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+    <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+    <li><a href="mobile.html"><i class="material-icons">informatiok'njm9nju]90i9juin</i></a></li>
+  </ul>
+</div>
+</nav>
+<img src="http://solercomputer.net/wp-content/uploads/bfi_thumb/COMBO-4-BIEN-mc146tq25tb273aax0vzfcte4fxvh6psfj7g2gsrs0.jpg" alt="">
+  </body>
+</html>
